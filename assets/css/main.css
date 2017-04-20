@@ -1,0 +1,49 @@
+#containder1{
+    margin: 15px;
+    position: relative;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+#containder1 div:first-child {
+    position: absolute;
+    top:25%;
+    left: 25%;
+    background: purple;
+    width: 50%;
+    height: 50%;
+}
+
+#containder1 div:last-child {
+    position: absolute;
+    top:25%;
+    left: 25%;
+    background: #c9c924;;
+    width: 25%;
+    height: 25%;  
+}
+
+#containder2{
+    margin: 15px;
+    position: relative;
+    background: #216fd8;
+    width: 100px;
+    height: 100px;
+}
+
+#containder2 div:first-child {
+    position: absolute;
+    top:25%;
+    left: 25%;
+    background: #3db139;
+    width: 50%;
+    height: 50%;  
+}
+
+#containder2 div:last-child {
+    position: relative;
+    background: #000;
+    width: 25%;
+    height: 25%;  
+}
